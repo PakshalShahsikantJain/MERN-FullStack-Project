@@ -14,7 +14,7 @@ app.use(function(req, res, next) {
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("http://localhost:27017/demo", {
+    await mongoose.connect("mongodb://localhost:27017/demo", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
