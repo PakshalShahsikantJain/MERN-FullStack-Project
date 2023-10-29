@@ -13,7 +13,7 @@ function Registration()
     const submitForm = (e) => {
       e.preventDefault();
 
-      axios.post("https://reactmernstack.onrender.com:5000/register",{
+      axios.post("https://reactmernstack.onrender.com/register",{
         Name,
         Date,
         Email,
