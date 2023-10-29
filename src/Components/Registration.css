@@ -1,0 +1,22 @@
+.form_container {
+    width: 30%;
+  }
+  
+  @media screen and (max-width: 1000px){
+    .form_container  {
+      width : 45%;
+    }
+  }
+  
+  @media screen and (max-width: 700px){
+    .form_container  {
+      width : 65%;
+    }
+  }
+
+  .background{
+    background:linear-gradient(#07485e,#22abdd)
+  }
+  .background2{
+    background:linear-gradient(#1c1c36d6,#4d5051)
+  }

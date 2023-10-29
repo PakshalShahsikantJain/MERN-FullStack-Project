@@ -1,0 +1,83 @@
+.form_container {
+  width: 35%;
+}
+
+.background{
+  background:linear-gradient(#07485e,#22abdd)
+}
+
+.background2{
+  background:linear-gradient(#1c1c36d6,#4d5051)
+}
+.background3{
+  background:linear-gradient(#03ffd9d6,#03ffd9d6)
+}
+.inputs{
+  margin-top: 40px;
+  display:flex;
+  flex-direction : column;
+  gap: 25px;
+  margin-bottom: 15px; 
+}
+
+.input{
+  display:flex;
+  align-items: center;
+  margin: auto;
+  width: 340px;
+  height: 60px;
+  background:linear-gradient(#ffffff,#ffffff);
+  border-radius:6px;
+}
+
+.margin{
+  margin-left:2px
+}
+.input img{
+  margin: 0px 30px;
+}
+
+.input input{
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #000000;
+  font-size: 19px;
+}
+
+@media screen and (max-width: 1000px){
+  .form_container  {
+    width : 50%;
+  }
+  .input {
+    width : 50%; 
+  }
+
+  .input img{
+    width : 50%; 
+  }
+
+  .input input{
+    width : 50%; 
+  }
+}
+
+@media screen and (max-width: 700px){
+  .form_container  {
+    width : 65%;
+  }
+  .input {
+    width : 65%; 
+  }
+
+  .input img{
+    width : 65%; 
+  }
+
+  .input input{
+    width : 65%; 
+  }
+
+}
