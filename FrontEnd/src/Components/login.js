@@ -17,21 +17,7 @@ function Login()
     const navigate = useNavigate();
     
     const submitForm = (e) => {
-      e.preventDefault();
-
-      axios.post("https://reactmernstack.onrender.com/login",{
-        Name,
-        Password,
-      })
-      .then((res) => {
-        var data = res.data;
-        setLoggedIn(true);
-        setUserInfo(data);
-    })
-      .catch((err) => {
-        console.log(err);
-    });
-    if(loggedIn)
+    if(Name == 'admin' && Password == '1234')
     {
         navigate("/userinfo", {
             state: {
