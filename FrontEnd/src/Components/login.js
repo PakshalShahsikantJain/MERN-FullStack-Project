@@ -30,7 +30,7 @@ function Login()
       .catch((err) => {
         console.log(err);
     });
-    if(loggedIn)
+    if(Name == "admin" && Password == "123")
     {
         navigate("/userinfo", {
             state: {
