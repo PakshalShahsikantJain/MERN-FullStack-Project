@@ -14,7 +14,7 @@ app.use(function(req, res, next) {
 
 const connectDB = async () => {
   try {
-    await mongoose.connect("mongodb://localhost:27017/demo", {
+    await mongoose.connect("mongodb+srv://thechainsmokers78:XotGaarezk4JRa0u@cluster0.m6304pb.mongodb.net/demo", {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
