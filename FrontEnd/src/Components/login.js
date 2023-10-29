@@ -17,7 +17,22 @@ function Login()
     const navigate = useNavigate();
     
     const submitForm = (e) => {
-    if(Name == 'admin' && Password == '1234')
+      /*
+      e.preventDefault();
+
+      axios.post("http://localhost:5000/login",{
+        Name,
+        Password,
+      })
+      .then((res) => {
+        var data = res.data;
+        setLoggedIn(true);
+        setUserInfo(data);
+    })
+      .catch((err) => {
+        console.log(err);
+    });*/
+    if(Name == "admin",Password=="1234")
     {
         navigate("/userinfo", {
             state: {

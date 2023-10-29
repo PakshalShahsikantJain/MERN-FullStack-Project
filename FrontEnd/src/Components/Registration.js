@@ -11,9 +11,10 @@ function Registration()
     const [result,setResult] = useState("");
     
     const submitForm = (e) => {
+      /*
       e.preventDefault();
 
-      axios.post("https://reactmernstack.onrender.com/register",{
+      axios.post("http://localhost:5000/register",{
         Name,
         Date,
         Email,
@@ -25,6 +26,7 @@ function Registration()
       .catch((err) => {
         console.log(err);
     });
+    */
   };
 
   return (
